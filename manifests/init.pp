@@ -14,7 +14,7 @@ class self_hostname(
             ensure       => present,
             ip           => '127.0.1.1',
             host_aliases => [$::hostname, 'localhost'],
-            require      => augeas['removal_in_etc_hosts'],
+            require      => Augeas['removal_in_etc_hosts'],
         }
     }
 
