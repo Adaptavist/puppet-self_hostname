@@ -1,5 +1,5 @@
 name 'adaptavist/self_hostname'
-version '0.1.3'
+version '1.0.0'
 source 'https://github.com/Adaptavist/puppet-self_hostname'
 author 'adaptavist'
 summary 'simple_networking puppet module'
