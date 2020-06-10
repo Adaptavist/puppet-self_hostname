@@ -2,5 +2,9 @@ fixtures:
   repositories:
     stdlib:
       repo: "https://github.com/Adaptavist/puppet-stdlib"
+    augeas_core:
+      repo: "https://github.com/puppetlabs/puppetlabs-augeas_core"
+    host_core:
+      repo: "https://github.com/puppetlabs/puppetlabs-host_core"
   symlinks:
     self_hostname: "#{source_dir}"

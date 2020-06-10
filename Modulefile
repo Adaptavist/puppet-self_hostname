@@ -1,5 +1,5 @@
 name 'adaptavist/self_hostname'
-version '1.0.0'
+version '1.0.1'
 source 'https://github.com/Adaptavist/puppet-self_hostname'
 author 'adaptavist'
 summary 'simple_networking puppet module'
@@ -7,3 +7,6 @@ description 'The **self_hostname** module update /etc/hosts records and sets hos
 project_page 'https://github.com/Adaptavist/puppet-self_hostname'
 
 ## Add dependencies, if any:
+dependency 'puppetlabs/stdlib'
+dependency 'puppetlabs/augeas_core ', '>= 1.0.5'
+dependency 'puppetlabs/host_core ', '>= 1.0.3'
